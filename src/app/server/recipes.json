@@ -1,0 +1,59 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "cookTime": 12,
+      "course": "chicken",
+      "cuisine": "chicken",
+      "ingrdients": "chicken",
+      "instructions": "chicken",
+      "prepTime": 123,
+      "serves": "4",
+      "type": "Non-Veg"
+    },
+    {
+      "id": 2,
+      "cookTime": 12,
+      "course": "chicken",
+      "cuisine": "chicken",
+      "ingrdients": "chicken",
+      "instructions": "chicken",
+      "prepTime": 123,
+      "serves": "4",
+      "type": "Non-Veg"
+    },
+    {
+      "id": 3,
+      "cookTime": 12,
+      "course": "chicken",
+      "cuisine": "chicken",
+      "ingrdients": "chicken",
+      "instructions": "chicken",
+      "prepTime": 123,
+      "serves": "4",
+      "type": "Non-Veg"
+    },
+    {
+      "id": 4,
+      "cookTime": 14,
+      "course": "Chicken",
+      "cuisine": "Chicken",
+      "ingrdients": "Chicken",
+      "instructions": "Chicken",
+      "prepTime": 12,
+      "serves": "Chicken",
+      "type": "Non-Veg"
+    },
+    {
+      "id": 31,
+      "cookTime": 12,
+      "course": "chicken",
+      "cuisine": "chicken",
+      "ingrdients": "chicken",
+      "instructions": "chicken",
+      "prepTime": 123,
+      "serves": "4",
+      "type": "Non-Veg"
+    }
+  ]
+}

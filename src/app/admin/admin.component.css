@@ -1,0 +1,11 @@
+.contentSection{
+    /* display: flex; */
+    justify-content: left;
+    padding-left: 40px;
+    max-height: 700px;
+    overflow: scroll;
+    /* width: 700px; */
+}
+.nav-link{
+    color: #11376e;
+}

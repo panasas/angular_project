@@ -1,0 +1,41 @@
+{
+  "posts": [
+    {
+      "id": 4,
+      "cookTime": 12,
+      "course": "sadasd",
+      "cuisine": "asdasd",
+      "ingrdients": "asdasd",
+      "instructions": "asdsad",
+      "prepTime": 12,
+      "serves": "asdasd",
+      "type": "asdsd"
+    },
+    {
+      "id": 1,
+      "cookTime": 12,
+      "course": "asdasd",
+      "cuisine": "asdsad",
+      "ingrdients": "asdsadasd",
+      "instructions": "asdasd",
+      "prepTime": 123,
+      "serves": "adasda",
+      "type": "asdsad"
+    },
+    {
+      "id": 2,
+      "cookTime": 213,
+      "course": "sdad",
+      "cuisine": "asdasd",
+      "ingrdients": "asdsad",
+      "instructions": "asdasd",
+      "prepTime": 21312,
+      "serves": "asdasd",
+      "type": "asdsad"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

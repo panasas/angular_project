@@ -1,0 +1,15 @@
+.mainSection{
+    width: 700px;
+}
+
+.contentSection{
+    width: 100%;
+}
+.btn-color{
+    background-color: #11376e;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    text-decoration: none;
+    padding: 8px 30px;
+  }

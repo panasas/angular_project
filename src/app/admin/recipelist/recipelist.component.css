@@ -1,0 +1,14 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    }
+.card {
+    width: 265px;
+    margin: 10px;
+    box-shadow: 0 0 12px rgb(240, 235, 235);
+    }
+
+.link-color{
+    color: #11376e;
+}

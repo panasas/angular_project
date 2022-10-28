@@ -1,0 +1,19 @@
+.mainSection{
+    display: flex;
+    justify-content: center;
+}
+.headerContent{
+  color: #11376e;
+  font-size:x-large;
+}
+.contentSection{
+  width: 500px;
+}
+.btn-color{
+  background-color: #11376e;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  text-decoration: none;
+  padding: 8px 30px;
+}

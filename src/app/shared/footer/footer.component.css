@@ -1,0 +1,10 @@
+.footerSection{
+    width: 100%;
+    border: 1px solid #eae9e9;
+    height: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    bottom: 0;
+    position: fixed;
+}

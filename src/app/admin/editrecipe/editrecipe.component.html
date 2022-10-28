@@ -1,0 +1,102 @@
+<div class="mainSection">
+    <form [formGroup]="addRecipe" class="contentSection" (ngSubmit)="onSubmit()">
+        <table cellpadding="10" width="100%">
+            <tr>
+                <td>
+                    <div class="form-group">
+                        <label class="mb-3">Recipe Id</label>
+                        <input type="number" class="form-control" placeholder="Enter Id" formControlName="id" [ngClass]="{'is-invalid':submitted && form['id'].errors}" [(ngModel)]="recipe.id">
+                        <div *ngIf="submitted && form['id'].errors" class="invalid-feedback">
+                            Id cannot be empty
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="form-group">
+                        <label class="mb-3">Cook Time</label>
+                        <input type="number" class="form-control" placeholder="cookTime" formControlName="cookTime" [ngClass]="{'is-invalid':submitted && form['cookTime'].errors}" [(ngModel)]="recipe.cookTime">
+                        <div *ngIf="submitted && form['cookTime'].errors" class="invalid-feedback">
+                            Cook Time cannot be empty
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="form-group">
+                        <label class="mb-3">Course</label>
+                        <input type="text" class="form-control" placeholder="course" formControlName="course" [ngClass]="{'is-invalid':submitted && form['course'].errors}" [(ngModel)]="recipe.course">
+                        <div *ngIf="submitted && form['course'].errors" class="invalid-feedback">
+                            Course cannot be empty
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="form-group">
+                        <label class="mb-3">Cuisine</label>
+                        <input type="text" class="form-control" placeholder="cuisine" formControlName="cuisine" [ngClass]="{'is-invalid':submitted && form['cuisine'].errors}" [(ngModel)]="recipe.cuisine">
+                        <div *ngIf="submitted && form['cuisine'].errors" class="invalid-feedback">
+                            Cuisine cannot be empty
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <div class="form-group">
+                        <label class="mb-3">Ingredients</label>
+                        <input type="text" class="form-control" placeholder="ingrdients" formControlName="ingrdients" [ngClass]="{'is-invalid':submitted && form['ingrdients'].errors}" [(ngModel)]="recipe.ingrdients">
+                        <div *ngIf="submitted && form['ingrdients'].errors" class="invalid-feedback">
+                            Ingrdients cannot be empty
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="form-group">
+                        <label class="mb-3">Instructions</label>
+                        <input type="text" class="form-control" placeholder="instructions" formControlName="instructions" [ngClass]="{'is-invalid':submitted && form['instructions'].errors}" [(ngModel)]="recipe.instructions">
+                        <div *ngIf="submitted && form['instructions'].errors" class="invalid-feedback">
+                            Instructions cannot be empty
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="form-group">
+                        <label class="mb-3">Preperation Time</label>
+                        <input type="number" class="form-control" placeholder="prepTime" formControlName="prepTime" [ngClass]="{'is-invalid':submitted && form['prepTime'].errors}" [(ngModel)]="recipe.prepTime">
+                        <div *ngIf="submitted && form['prepTime'].errors" class="invalid-feedback">
+                            Preperation Time cannot be empty
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="form-group">
+                        <label class="mb-3">Serves</label>
+                        <input type="text" class="form-control" placeholder="serves" formControlName="serves" [ngClass]="{'is-invalid':submitted && form['serves'].errors}" [(ngModel)]="recipe.serves">
+                        <div *ngIf="submitted && form['serves'].errors" class="invalid-feedback">
+                            Serves cannot be empty
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="form-group">
+                        <label class="mb-3">Type</label>
+                        <input type="text" class="form-control" placeholder="type" formControlName="type" [ngClass]="{'is-invalid':submitted && form['type'].errors}" [(ngModel)]="recipe.type">
+                        <div *ngIf="submitted && form['type'].errors" class="invalid-feedback">
+                            Type cannot be empty
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button class="btn btn-color mb-3">Submit</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>

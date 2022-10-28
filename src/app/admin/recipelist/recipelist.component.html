@@ -1,0 +1,83 @@
+<div class="card-container" >
+    <div class="card" *ngFor="let recipe of recipes" >
+      <div class="card-body">
+        <div style="display:flex;justify-content:space-between">
+            <div>
+                <h5 class="card-title">Recipie Id - {{recipe?.id}}</h5>
+            </div>
+            <div>
+                <a routerLink ="/admin/edit/{{recipe?.id}}" class="link-color">Update</a>
+            </div>
+        </div>
+        <table>
+            <tr>
+                <td>
+                    <p class="card-text">Type</p>
+                </td>
+                <td>
+                    <p class="card-text">: {{recipe?.type}}</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="card-text">Cook Time </p>
+                </td>
+                <td>
+                    <p class="card-text">: {{recipe?.cookTime}}</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="card-text">Course </p>
+                </td>
+                <td>
+                    <p class="card-text">: {{recipe?.course}}</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="card-text">Cuisine </p>
+                </td>
+                <td>
+                    <p class="card-text">: {{recipe?.cuisine}}</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="card-text">Ingredients</p>
+                </td>
+                <td>
+                    <p class="card-text">: {{recipe?.ingrdients}}</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="card-text">Instructions </p>
+                </td>
+                <td>
+                    <p class="card-text">: {{recipe?.instructions}}</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="card-text">PrepTime </p>
+                </td>
+                <td>
+                    <p class="card-text">: {{recipe?.prepTime}}</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="card-text">Serve </p>
+                </td>
+                <td>
+                    <p class="card-text">: {{recipe?.serves}}</p>
+                </td>
+            </tr>
+        </table>
+        <div style="float:right">
+            <button class="btn btn-danger btn-sm" (click)="delete(recipe.id)">Delete</button>
+        </div>
+      </div>
+    </div>
+  </div>
